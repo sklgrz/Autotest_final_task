@@ -4,7 +4,7 @@ from .locators import ProductPageLocators
 class ProductPage(BasePage):
 	def should_be_in_product_page(self):
 		self.add_to_basket()
-		self.solve_quiz_and_get_code()
+		#self.solve_quiz_and_get_code()
 		self.should_be_product_name_in_basket()
 		self.should_be_product_price_in_basket()
 
